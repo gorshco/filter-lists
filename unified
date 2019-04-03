@@ -1,0 +1,14 @@
+! unified filters by gorsh.co
+!------------------------------
+! ynet: ynet+
+m.ynet.co.il##div.trajectory:has(img[src$='yplus_m.png'])
+m.ynet.co.il##li:has(.ordering_y_plus):not(:has(.hidden_elem))
+m.ynet.co.il##li:has(.strip_y_plus)
+www.ynet.co.il###ynet_user_login
+www.ynet.co.il##div.B3b:has(div[data-vr-zone='Mithalefet'])
+www.ynet.co.il##div[data-vr-zone^='Strip']:has(span.paywall_art_indicator)
+www.ynet.co.il##li:has([class^=MultiImagesNews_ynet_pay_])
+www.ynet.co.il##li:has([class^=pplus_pay])
+www.ynet.co.il##li:has([class^=ynet_pay_])
+www.ynet.co.il##ul.mta_items > li:has(img[src^='/images/premium/'])
+www.ynet.co.il##ul.mta_pic_items:has(img.paywall_img_indicator)
