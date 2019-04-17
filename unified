@@ -3,6 +3,7 @@
 ! carsforum -----------------
 www.carsforum.co.il###posts > li:not([id^=post_])
 ! haaretz -------------------
+www.haaretz.co.il##.promo
 www.haaretz.co.il##div.a.b.c.d.e > div:nth-child(1)
 www.haaretz.co.il##div.a.b.c.d.e > div:nth-child(2)
 ! ynet ----------------------
