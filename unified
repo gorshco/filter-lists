@@ -4,6 +4,7 @@
 www.carsforum.co.il###posts > li:not([id^=post_])
 ! haaretz -------------------
 www.haaretz.co.il###__next > div > div
+www.haaretz.co.il##.promo-wrapper
 ! ynet ----------------------
 m.ynet.co.il##div.trajectory:has(img[src$='yplus_m.png'])
 m.ynet.co.il##li:has(.ordering_y_plus):not(:has(.hidden_elem))
