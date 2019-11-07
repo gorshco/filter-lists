@@ -5,6 +5,18 @@ www.carsforum.co.il###posts > li:not([id^=post_])
 ! haaretz -------------------
 www.haaretz.co.il###__next > div > div
 www.haaretz.co.il##.promo-wrapper
+! themarker -----------------
+themarker.com###Poalim-commercial
+themarker.com##div.ad
+themarker.com##div.media:has(a[href='http://www.hamadad.co.il/'])
+themarker.com##div.t-advert
+themarker.com##div.t-milli:-abp-contains(תוכן מקודם)
+themarker.com##h2:-abp-contains(מקודם)
+themarker.com##h2:-abp-contains(פיפלביז)
+themarker.com##li.fastnews--bnr
+themarker.com##section.investor-relations__lst
+themarker.com##section.newsletterQRWrapper
+themarker.com##section.pipelbiz-section
 ! ynet ----------------------
 m.ynet.co.il##div.trajectory:has(img[src$='yplus_m.png'])
 m.ynet.co.il##li:has(.ordering_y_plus):not(:has(.hidden_elem))
