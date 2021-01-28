@@ -1,31 +1,4 @@
 ! unified filters by gorsh.co
 !----------------------------
-! carsforum -----------------
-www.carsforum.co.il###posts > li:not([id^=post_])
-! haaretz -------------------
-www.haaretz.co.il###__next > div > div
-www.haaretz.co.il##.promo-wrapper
-! themarker -----------------
-themarker.com###Poalim-commercial
-themarker.com##div.ad
-themarker.com##div.media:has(a[href='http://www.hamadad.co.il/'])
-themarker.com##div.t-advert
-themarker.com##div.t-milli:-abp-contains(תוכן מקודם)
-themarker.com##h2:-abp-contains(מקודם)
-themarker.com##h2:-abp-contains(פיפלביז)
-themarker.com##li.fastnews--bnr
-themarker.com##section.investor-relations__lst
-themarker.com##section.newsletterQRWrapper
-themarker.com##section.pipelbiz-section
-! ynet ----------------------
-m.ynet.co.il##div.trajectory:has(img[src$='yplus_m.png'])
-m.ynet.co.il##li:has(.ordering_y_plus):not(:has(.hidden_elem))
-m.ynet.co.il##li:has(.strip_y_plus)
-www.ynet.co.il###ynet_user_login
-www.ynet.co.il##div.B3b:has(div[data-vr-zone='Mithalefet'])
-www.ynet.co.il##div[data-vr-zone^='Strip']:has(span.paywall_art_indicator)
-www.ynet.co.il##li:has([class^=MultiImagesNews_ynet_pay_])
-www.ynet.co.il##li:has([class^=pplus_pay])
-www.ynet.co.il##li:has([class^=ynet_pay_])
-www.ynet.co.il##ul.mta_items > li:has(img[src^='/images/premium/'])
-www.ynet.co.il##ul.mta_pic_items:has(img.paywall_img_indicator)
+! facebook ------------------
+facebook.com##div[role='feed'] > div[data-pagelet]:has(div > div > div> div> div> div> div> div> div> div> div> div> div> div> div> div> span > span > a)
