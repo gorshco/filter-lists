@@ -2,3 +2,5 @@
 !----------------------------
 ! facebook ------------------
 facebook.com##div[role='feed'] > div[data-pagelet]:has(div > div > div> div> div> div> div> div> div> div> div> div> div> div> div> div> span > span > a)
+! linkedin ------------------
+linkedin.com##div[data-id]:has(span.feed-shared-actor__description):-abp-contains(Promoted)
