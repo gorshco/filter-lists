@@ -1,6 +1,4 @@
-! unified filters by gorsh.co
+! unified filters by gorshco
 !----------------------------
 ! facebook ------------------
-facebook.com##div[role='feed'] > div[data-pagelet]:has(div > div > div> div> div> div> div> div> div> div> div> div> div> div> div> div> span > span > a)
-! linkedin ------------------
-linkedin.com##div[data-id]:has(span.feed-shared-actor__description):-abp-contains(Promoted)
+facebook.com##div[role='main']> div > div > div > div > div > div:has(div > span > div > object > a > span):-abp-contains(Sponsored)
