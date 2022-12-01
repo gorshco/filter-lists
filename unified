@@ -1,4 +1,6 @@
 ! unified filters by gorshco
-!----------------------------
-! facebook ------------------
+!----------------------------------------------------
+! facebook: remove sponsored marketplace items ------
 facebook.com##div[role='main']> div > div > div > div > div > div:has(div > span > div > object > a > span):-abp-contains(Sponsored)
+! store.playstation.com: remove owned titles --------
+store.playstation.com##ul.psw-grid-list > li:has(span):-abp-contains(Purchased)
